@@ -1,4 +1,20 @@
-/* Dummy CSS to test link */
-h1 {
-    color: blue;
+#mainPage {
+    display: grid;
+    grid-template-rows: repeat(5, minmax(15%, 20vh));
+    grid-template-columns: repeat(5, minmax(15%, 20vw));
+}
+
+#sidebar {
+    background-color: blue;
+    grid-area: 1 / 1 / 6 / 2;
+}
+
+#header {
+    background-color: white;
+    grid-area: 1 / 2 / 3 / 6;
+}
+
+#mainContent{
+    background-color: gray;
+    grid-area: 2 / 2 / 6 / 6;
 }
