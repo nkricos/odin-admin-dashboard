@@ -5,8 +5,12 @@
 }
 
 #sidebar {
+    color: white;
     background-color: blue;
     grid-area: 1 / 1 / 6 / 2;
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: repeat(12, 25px);
 }
 
 #header {
